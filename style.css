@@ -1,0 +1,70 @@
+/* Custom Styles */
+body {
+    background-color: #000; /* Change background to black */
+    color: #fff; /* Change text color to white */
+}
+
+header, footer {
+    background-color: #1a1a1a; /* Darker background for header and footer */
+}
+
+.bg-gray-50 {
+    background-color: #2a2a2a; /* Darker background for skill cards */
+}
+
+.bg-white {
+    background-color: #1a1a1a; /* Change white backgrounds to dark */
+}
+
+a {
+    color: #1e90ff; /* Change link color for better visibility */
+}
+
+a:hover {
+    color: #00bfff; /* Change hover color for links */
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Smooth hover transitions */
+a, button {
+    transition: all 0.3s ease;
+}
+
+/* Skill card hover effect */
+.bg-gray-50:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Additional responsive styles */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
